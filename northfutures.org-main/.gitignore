@@ -1,0 +1,9 @@
+#
+# Files to ignore from git version control
+#
+
+*.env
+node_modules
+_site
+.DS_Store
+img
