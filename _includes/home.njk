@@ -1,16 +1,20 @@
 ---
 layout: html.njk
 ---
-
+<nav id="navbar">
+  <cluster-layout justify="flex-start">
+      <a class="nav-link" href="#workshop-call">Workshop Call</a>
+      <a class="nav-link" href="#workshop-activities-and-schedule">Workshop Schedule</a>
+      <a class="nav-link" href="#participate-in-the-workshop">Participate</a>
+      <a class="nav-link" href="#workshop-chairs">Workshop Chairs</a></ul>
+</cluster-layout>
+</nav>
 <header class="hero">
-  <img class="hero-background" src="/assets/hero.jpg" />
+  <img class="hero-background" src="/assets/cover01.jpg" />
   <!-- <img class="hero-brand" src="assets/brand.png" alt="NortHFutures" /> -->
-  <div class="hero-brand" side="right">
-    <center-layout gutters="var(--s0)">
-      <cluster-layout justify="space-between" align="center" space="var(--s-1)">
-        <img src="/assets/northfutures-light.svg" width="420" />
-        <img alt="EPSRC" src="/assets/epsrc.png" width="180" />
-      </cluster-layout>
+  <div class="hero-brand">
+    <center-layout >
+        <img src="/assets/Logo.png" width="600" />
     </center-layout>
   </div>
 </header>
@@ -19,3 +23,24 @@ layout: html.njk
     <section class="flow"> {{ content | safe }} </section>
   </center-layout>
 </main>
+<script>
+  
+  window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+  
+</script>
+

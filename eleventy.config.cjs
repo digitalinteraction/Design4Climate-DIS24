@@ -3,76 +3,94 @@ const { EleventyRenderPlugin } = require('@11ty/eleventy')
 const eleventyWebcPlugin = require('@11ty/eleventy-plugin-webc')
 const EleventyImage = require('@11ty/eleventy-img')
 const { eleventyImagePlugin } = require('@11ty/eleventy-img')
+const markdownIt = require('markdown-it')
+const markdownItAnchor = require('markdown-it-anchor')
+const markdownItAttrs = require('markdown-it-attrs')
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(EleventyRenderPlugin)
-  eleventyConfig.addPlugin(eleventyAlembic, { useLabcoat: true })
+module.exports = function(eleventyConfig) {
+    eleventyConfig.addPlugin(EleventyRenderPlugin)
+    eleventyConfig.addPlugin(eleventyAlembic, { useLabcoat: true })
 
-  eleventyConfig.addPlugin(eleventyWebcPlugin, {
-    components: ['npm:@11ty/eleventy-img/*.webc'],
-  })
+    eleventyConfig.addPlugin(eleventyWebcPlugin, {
+        components: ['npm:@11ty/eleventy-img/*.webc'],
+    })
 
-  eleventyConfig.addPlugin(eleventyImagePlugin, {
-    formats: ['webp', 'jpeg'],
-    urlPath: '/img/',
-    svgShortCircuit: true,
-    defaultAttributes: {
-      loading: 'lazy',
-      decoding: 'async',
-    },
-  })
+    eleventyConfig.addPlugin(eleventyImagePlugin, {
+        formats: ['webp', 'jpeg'],
+        urlPath: '/img/',
+        svgShortCircuit: true,
+        defaultAttributes: {
+            loading: 'lazy',
+            decoding: 'async',
+        },
+    })
 
-  eleventyConfig.addShortcode('vimeo', function (id, title, caption) {
-    const url = new URL(`https://player.vimeo.com/video/${id}`)
-    url.searchParams.set('h', '29458ecc0b')
-    url.searchParams.set('badge', '0')
-    url.searchParams.set('autopause', '0')
-    url.searchParams.set('player_id', '0')
-    url.searchParams.set('app_id', '58479')
+    eleventyConfig.addShortcode('vimeo', function(id, title, caption) {
+        const url = new URL(`https://player.vimeo.com/video/${id}`)
+        url.searchParams.set('h', '29458ecc0b')
+        url.searchParams.set('badge', '0')
+        url.searchParams.set('autopause', '0')
+        url.searchParams.set('player_id', '0')
+        url.searchParams.set('app_id', '58479')
 
-    const allow = 'autoplay; fullscreen; picture-in-picture'
-    const style = 'width:100%;height:100%;'
+        const allow = 'autoplay; fullscreen; picture-in-picture'
+        const style = 'width:100%;height:100%;'
 
-    return [
-      '<figure>',
-      '<frame-layout ratio="16:9">',
-      `<iframe src="${url.toString()}" frameborder="0" allow="${allow}" style="${style}" title="${title}">`,
-      '</iframe>',
-      '</frame-layout>',
-      `<figcaption>${caption}</figcaption>`,
-      '</figure>',
-    ].join('\n')
-  })
+        return [
+            '<figure>',
+            '<frame-layout ratio="16:9">',
+            `<iframe src="${url.toString()}" frameborder="0" allow="${allow}" style="${style}" title="${title}">`,
+            '</iframe>',
+            '</frame-layout>',
+            `<figcaption>${caption}</figcaption>`,
+            '</figure>',
+        ].join('\n')
+    })
 
-  eleventyConfig.addShortcode(
-    'logoset',
-    async function (logos = [], size = '150px') {
-      console.log(logos)
-      const images = await Promise.all(
-        logos.map(async (logo) => {
-          const metadata = await EleventyImage(logo, {
-            widths: [240],
-            formats: ['webp'],
-            outputDir: './_site/img',
-          })
+    eleventyConfig.addShortcode(
+        'logoset',
+        async function(logos = [], size = '150px') {
+            console.log(logos)
+            const images = await Promise.all(
+                logos.map(async(logo) => {
+                    const metadata = await EleventyImage(logo, {
+                        widths: [240],
+                        formats: ['webp'],
+                        outputDir: './_site/img',
+                    })
 
-          const [data] = metadata.webp
+                    const [data] = metadata.webp
 
-          return `<img class="logo" src="${data.url}">`
-        }),
-      )
+                    return `<img class="logo" src="${data.url}">`
+                }),
+            )
 
-      return [
-        `<grid-layout space="var(--s2)" class="logoset" min="${size}">`,
-        ...images,
-        '</grid-layout>',
-      ].join('')
-    },
-  )
+            return [
+                `<grid-layout space="var(--s2)" class="logoset" min="${size}">`,
+                ...images,
+                '</grid-layout>',
+            ].join('')
+        },
+    )
 
-  eleventyConfig.addPassthroughCopy('assets')
+    eleventyConfig.addPassthroughCopy('assets')
 
-  return {
-    markdownTemplateEngine: 'njk',
-  }
+    let markdownItOptions = {
+        html: true, // you can include HTML tags
+    }
+
+    let markdownItAnchorOptions = {
+        level: 2, // minimum level header -- anchors will only be applied to h2 level headers and below but not h1
+    }
+
+    eleventyConfig.setLibrary(
+        'md',
+        markdownIt(markdownItOptions)
+        .use(markdownItAnchor, markdownItAnchorOptions)
+        .use(markdownItAttrs),
+    )
+
+    return {
+        markdownTemplateEngine: 'njk',
+    }
 }

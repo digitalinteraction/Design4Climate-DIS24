@@ -14,7 +14,16 @@
   </head>
   <body>
     {{ content | safe }}
-    <footer> {{ site.title }} 2023 </footer>
+    <center-layout>
+          <cluster-layout  align="center">       
+                <img src="assets/newcastle.png" alt="NCLlogo" width="200">
+                <img src="assets/Logo-Openlab.jpg" alt="OpenLablogo" width="200">
+                <img src="assets/LogoHBBE.png" alt="HBBElogo" width="200">
+                <img src="assets/Queens-logo.jpg" alt="QSClogo" width="200">
+                <img src="assets/iStudio.png" alt="iStudiologo" width="200">
+          </cluster-layout>  
+      </center-layout>
+    <footer> {{ site.title }} </footer>
     <!-- @openlab/alembic inject-js -->
   </body>
 </html>

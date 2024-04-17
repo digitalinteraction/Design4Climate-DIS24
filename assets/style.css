@@ -1,74 +1,133 @@
 hr {
-  margin: 5rem 0 !important;
-  border: none;
-  border-top: var(--s-5) dashed var(--border);
+    margin: 5rem 0 !important;
+    border: none;
+    border-top: var(--s-5) dashed var(--border);
 }
 
 .logoset {
-  align-items: center;
+    align-items: center;
 }
 
 @media (prefers-color-scheme: dark) {
-  .logoset,
-  .map {
-    background-color: white;
-    border-radius: var(--s-4);
-    padding: var(--s-1);
-  }
+    .logoset,
+    .map {
+        background-color: white;
+        border-radius: var(--s-4);
+        padding: var(--s-1);
+    }
 }
 
 header.hero {
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-height: 40vh;
-  position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 40vh;
+    position: relative;
 }
 
 .hero-background {
-  width: 100%;
-  filter: saturate(0.7) brightness(0.6);
+    width: 100%;
+    filter: saturate(0.7) brightness(0.6);
 }
-.hero-brand {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* height: 66.667%; */
-  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.6));
 
-  width: 100%;
+.hero-brand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* height: 66.667%; */
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.6));
+    width: 100%;
 }
 
 .hero-brand img {
-  height: auto;
+    height: auto;
+    margin-top: 50px;
 }
 
 .wordmark {
-  font-family: Montserrat, Inter, system-ui;
-  font-size: min(calc(24px + 3vw), 64px);
-  color: white;
-  font-weight: bold;
+    font-family: Montserrat, Inter, system-ui;
+    font-size: min(calc(24px + 3vw), 64px);
+    color: white;
+    font-weight: bold;
 }
 
 ul {
-  margin-inline: 0;
+    margin-inline: 0;
 }
 
 h2,
-br + * {
-  --flow: 2em;
+br+* {
+    --flow: 2em;
 }
 
+
 /* TODO: moved to labcoat */
-figure > *:not(figcaption) {
-  margin-inline: auto;
+
+figure>*:not(figcaption) {
+    margin-inline: auto;
 }
-figure > * + * {
-  margin-block-start: var(--s-3);
+
+figure>*+* {
+    margin-block-start: var(--s-3);
 }
+
 figcaption {
-  text-align: center;
-  font-style: italic;
+    text-align: center;
+    font-style: italic;
+}
+
+#navbar {
+    z-index: 1;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* flex-end becomes problematic, width needs to be set at 98% and responsiveness is inaccurate */
+
+
+/*problem with mobile (needs to become a burger button */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* .sticky+.content {
+    padding-top: 60px;
+    margin-right: 100px;
+} */
+
+.nav-link {
+    font-size: smaller;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link a:active {
+    font-size: smaller;
+    text-decoration: none;
+    color: blue;
+}
+
+a:link {
+    font-weight: bold;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: blue !important;
+}
+
+.chairs {
+    font-size: 14px;
+    margin-top: 15px;
 }

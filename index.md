@@ -3,93 +3,78 @@ layout: home.njk
 formUrl: https://forms.office.com/Pages/ResponsePage.aspx?id=yRJQnBa2wkSpF2aBT74-h-sd_7IfUsBBq1o6Cc4k1QNUNUlGMDc4WTBHQjFHMktVWVJSVFBUOVNBUC4u
 ---
 
-## EPSRC Northern Health Futures Hub
+## Workshop Call
 
-The **NortHFutures** Hub is envisioned as a world-leading innovation ecosystem that will facilitate the research, development, and acceleration of responsibly designed, human-centred, and data-rich health-tech to cultivate an entrepreneurial and vibrant community that addresses regional healthcare needs and promotes leadership in Digital Health.
+We invite submissions from HCI researchers, architects, designers, engineers, computer scientists and others to participate in a one-day workshop on **Human-Building-Interaction (HBI) and Design for Climate Change** at DIS 2024, at IT University, Copenhagen-DK, 1st-5th July 2024.
+
+<br>
+Climate change poses unique challenges for the design of human-centered smart buildings and Human Building Interaction (HBI) research. Harvesting the potentials of vast amounts of environmental and personal data accumulated in contemporary smart buildings, and advances in programmable, actuating (bio)materials (such as CO2 harvesting), new design opportunities arise for novel data interactions that address climate, health & wellbeing and behavior in the built environment. Relevant research includes physical, biomaterial and tangible feedback for climate awareness – including air quality awareness-zero & passive energy, self-powered and compostable interfaces; and bio-design for wellbeing in-place.
 
 <br>
 
-NortHFutures involves six regional universities:
+Building upon past research, this workshop invites you to rethink our relationships with data in buildings within the context of climate change; contributing towards shaping an HCI/design agenda for more-than-human, symbiotic relationships with the built environment.
 
-{% logoset logos.university, '8.75em' %}
+Download the [Workshop Call here](https://files.openlab.dev/0f689070-4508-49b8-926f-0e526358f8e6)
+
+## Workshop Activities and Schedule
+
+The workshop will explore different contexts, study methods, designs and technologies broadly associated with Human-Building-Interaction and climate change. Invited participants will present their work during a lightning talks and demos session, followed by a “mapping the research landscape” exercise. Participants will collaboratively video prototype design fictions for new experiences around climate, interfaces and data interactions in buildings, and engage in design crit and discussion around the prototypes and key topics raised, as a contribution to workshop outcomes. The emerging design agenda developed in this workshop will inform a call for future publications.
+
+![Timetable](assets/Timetable.png)
+
+**Workshop Intended Outcomes**
+
+This workshop will map the research landscape and frame a design research agenda for HBI in relation to climate change; bringing emerging practices amongst different disciplines and research fields together. Intended outcomes of this workshop include:
+
+- Framing a new design agenda for HBI research within climate change.
+- Sharing theories, methodologies, practices, and tools for supporting this design agenda.
+- Discussing and critically reflecting on technologies and case studies with the view of supporting this design agenda.
+- Fostering future collaborations on the topic of HBI & climate change.
+
+**Workshop Themes and Topics**
+
+Our workshop will discuss emerging design research practices to frame a design agenda that is contextualized within climate change, and addresses feedback, data, materiality and human behavior within the built environment. Our workshop’s specific areas of interest are categorized under the following **Themes & Topics of Interest**. Participants are invited to submit proposals that address (but are not limited to) these themes and topics.
+
+![Topics](assets/AssetDiagram.png)
+
+**Theme A: People & Behavior in buildings**
+
+- Climate-sensitive Behavior awareness & behavior change in place.
+- Collaborative & symbiotic interactions in buildings
+- Human-to-human and more-than-human interactions
+- Climate awareness and health & well-being
+- Towards net-zero: framing human-building interactions under net-zero and carbon-offset strategies.
+
+**Theme B: Climate Data & Context**
+
+- Mapping aspects of climate & climate change in buildings – e.g. complexity of indoor air quality
+- Methods for mapping experiences relevant with climate change and data in the buildings: quantitative, qualitative, and mixed-methods approaches; process-oriented methods; research through design.
+- Data collection & data harvesting – new approaches to sensing
+- Human-AI interaction and climate prediction
+- Ethics of climate data; sensing and privacy.
+- Context (i.e. home, shared, public building spaces), data practices and data representation
+
+**Theme Design, technology and Interfaces**
+
+- Biomimetic & biophilic interfaces
+- Self-powered / passive & zero energy interfaces
+- Physical Feedback strategies – e.g. haptic, embodied etc.
+- Actuating / Programmable materials
+- Biomaterials & feedback
+- Digital and personal fabrication
+
+## Participate in the Workshop
+
+**Deadline** for submissions is
+
+[Please submit your proposal here]({{ formUrl }})
+
+If you have any queries, please contact:
+
+**Lenia Margariti** [lenia.margariti@newcastle.ac.uk](mailto:lenia.margariti@newcastle.ac.uk).
+
+## Workshop Chairs
+
+{% include "chairs.njk" %}
 
 <br>
-
-Seven regional National Health Service (NHS) Foundation Trusts:
-
-{% include 'nhs.njk' %}
-
-<br>
-
-And over 50+ partners, including regional, national, and global companies; health and care providers; local authorities; innovation accelerators; plus voluntary, community, and social enterprise sector organisations and advocacy groups.
-
-The NortHFutures network is open to all. To get involved and keep updated about engagement activities: [Join the mailing list →]({{ formUrl }}).
-
-<br>
-
-{% logoset logos.industry, '7em' %}
-
-<br>
-
-## Digital Health Innovation Ecosystem
-
-{% vimeo '896232183', 'EPSRC Northern Health Futures (NortHFutures) Hub', 'Overview of NortHFutures Hub by the Directors and Programme Manager' %}
-
-<br>
-
-## Across the North East and North Cumbria
-
-The NortHFutures consortium has a shared agenda to address unmet health needs, inequalities, and digital exclusion in the North East and North Cumbria (NENC) region where there is proportionately high deprivation, child poverty, mental health challenges and a high percentage of people in the population living with multiple long-term conditions.
-
-{% include 'map.njk' %}
-
-<br>
-
-## Hub Activities
-
-The NortHFutures consortium aims to humanise health-tech through equity, participation, and investment in people.
-
-- Establish the hub as a world-leading research centre that is people-powered and **provides opportunities for all** to engage in digital health and health-tech initiatives;
-- **Enhance digital skills training** provision for stakeholders in multiple sectors: Health and Care; Industry; Voluntary, Community and Social Enterprise; Local Government; Academia; and in diverse learning and training environments across the region;
-- Collaboratively **create a supportive community** of people and organisations working across health and care and in digital technology innovation;
-- **Fund scoping research** in the field of Digital Health that addresses regional unmet health and care needs, health inequalities, and digital exclusion;
-- **Create opportunities for engagement, networking and entrepreneurship**.
-
-We will:
-
-- Deliver and evaluate digital skills training and development initiatives;
-- Develop new community services and technical infrastructure for collaborative data work and for connecting people working in Digital Health in our region and beyond;
-- Commission and evaluate scoping research studies that support new collaborations;
-- Hold networking events and provide access to resources supporting entrepreneurship, innovation, and routes to commercialisation.
-
-Through our joined-up approach, we unite to build ways for populations of all ages to thrive and invest in their possible futures.
-
-Please download this [PDF summary](https://files.openlab.dev/0f689070-4508-49b8-926f-0e526358f8e6) to find out more about the hub activities.
-
-## Hub Research Themes
-
-The hub activities are mobilised around four themes that are grounded in evidenced need voiced by our stakeholders:
-
-- Promoting Health & Nutrition for Children & Young People;
-- Developing Digital Surgical Pathways;
-- Supporting Mental Health & Wellbeing;
-- Living & Ageing Well with Multiple Long-term Conditions.
-
-## Join the NortHFutures Network
-
-We start work on 1st November 2023 for a 3-Year Pilot Phase. Please join the network, which is open to all, to be kept updated about upcoming events:
-
-- [#NortHFutures](https://twitter.com/search?q=%23NortHFutures)
-- [Join the mailing list →]({{ formUrl }})
-
-## Leadership
-
-<img src="assets/leadership.jpg" alt="Leadership" width="400">
-
-NortHFutures Co-Directors are Prof. Abigail Durrant at Open Lab, Newcastle University, and Prof. Naeem Soomro, Consultant Urologist at Newcastle Hospitals NHS Foundation Trust. The directors are supported by a wider leadership team with representation from across the partnership and hub consortium.
-
-## Contact
-
-If you have any queries about the hub and how to get involved, please contact:
-
-**NortHFutures Hub Manager** Jen Wood: [Jennifer.Wood@newcastle.ac.uk](mailto:Jennifer.Wood@newcastle.ac.uk).
