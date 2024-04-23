@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-formUrl: https://forms.office.com/Pages/ResponsePage.aspx?id=yRJQnBa2wkSpF2aBT74-h-sd_7IfUsBBq1o6Cc4k1QNUNUlGMDc4WTBHQjFHMktVWVJSVFBUOVNBUC4u
+formUrl: https://forms.gle/zQ6TgnbfvoY3mhHdA
 ---
 
 ## Workshop Call
@@ -14,7 +14,7 @@ Climate change poses unique challenges for the design of human-centered smart bu
 
 Building upon past research, this workshop invites you to rethink our relationships with data in buildings within the context of climate change; contributing towards shaping an HCI/design agenda for more-than-human, symbiotic relationships with the built environment.
 
-Download the [Workshop Call here](https://files.openlab.dev/0f689070-4508-49b8-926f-0e526358f8e6)
+Download the [Workshop Call here](https://drive.google.com/file/d/1VwO1mGHS-TVBwpnyDKr5ej5XfO56oHI7/view?usp=sharing)
 
 ## Workshop Activities and Schedule
 
@@ -54,7 +54,7 @@ Our workshop will discuss emerging design research practices to frame a design a
 - Ethics of climate data; sensing and privacy.
 - Context (i.e. home, shared, public building spaces), data practices and data representation
 
-**Theme Design, technology and Interfaces**
+**Theme C: Design, technology and Interfaces**
 
 - Biomimetic & biophilic interfaces
 - Self-powered / passive & zero energy interfaces
@@ -65,9 +65,25 @@ Our workshop will discuss emerging design research practices to frame a design a
 
 ## Participate in the Workshop
 
-**Deadline** for submissions is
+The workshop will be a full-day in-person event. Participants are invited to join for the whole day. Information about the Conference Venue can be found [here](https://dis.acm.org/2024/attending-dis24/).
 
-[Please submit your proposal here]({{ formUrl }})
+Submissions are possible in one of two formats:
+
+(1) Motivational Statement highlighting professional interest in the workshop and relevant expertise (max. 2 pages, pdf files only)
+
+(2) Extended Abstract in the ACM Conference Proceedings Primary Article format (max. 4 pages excluding references)
+
+Submissions should address subjects related to the Themes and Topics above, including but not limited to: **People and Behaviour in the Buildings (Under climate change); Climate Data & Context; Design, Technology and Interfaces**.
+
+Please indicate whether you do or do not wish for your submission to be published on the workshop website.
+
+At least one author of each accepted paper must attend the workshop. Participants will be selected based on their prior experience, expressed interest in the workshop and the quality of their submissions. We will focus on recruiting from a diverse group of participants.
+
+Depending on the number and quality of submissions we intend to invite the authors of Extended Abstracts to develop them either into a book chapter or a journal special issue manuscript.
+
+**Deadline for submissions is xx. We will review your submissions and get back to you by xx.**
+
+[Submit your proposal here]({{ formUrl }})
 
 If you have any queries, please contact:
 
