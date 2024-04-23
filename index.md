@@ -85,8 +85,6 @@ Depending on the number and quality of submissions we intend to invite the autho
 
 **Deadline for submissions is xx. We will review your submissions and get back to you by xx.**
 
-[>>Submit your proposal here]({{ formUrl }})
-
 If you have any queries, please contact:
 
 **Lenia Margariti** [lenia.margariti@newcastle.ac.uk](mailto:lenia.margariti@newcastle.ac.uk).
