@@ -65,6 +65,8 @@ Our workshop will discuss emerging design research practices to frame a design a
 
 ## Participate in the Workshop
 
+[>>Submit your proposal here]({{ formUrl }})
+
 The workshop will be a full-day in-person event. Participants are invited to join for the whole day. Information about the Conference Venue can be found [here](https://dis.acm.org/2024/attending-dis24/).
 
 Submissions are possible in one of two formats:
@@ -83,7 +85,7 @@ Depending on the number and quality of submissions we intend to invite the autho
 
 **Deadline for submissions is xx. We will review your submissions and get back to you by xx.**
 
-[Submit your proposal here]({{ formUrl }})
+[>>Submit your proposal here]({{ formUrl }})
 
 If you have any queries, please contact:
 
