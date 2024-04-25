@@ -24,12 +24,12 @@ The workshop will explore different contexts, study methods, designs and technol
 
 **Workshop Intended Outcomes**
 
-This workshop will map the research landscape and frame a design research agenda for HBI in relation to climate change; bringing emerging practices amongst different disciplines and research fields together. Intended outcomes of this workshop include:
+This workshop will map the research landscape and frame a design research agenda for HBI and design in relation to climate change; bringing emerging practices amongst different disciplines and research fields together. Intended outcomes of this workshop include:
 
 - Framing a new design agenda for HBI research within climate change.
 - Sharing theories, methodologies, practices, and tools for supporting this design agenda.
 - Discussing and critically reflecting on technologies and case studies with the view of supporting this design agenda.
-- Fostering future collaborations on the topic of HBI & climate change.
+- Fostering future collaborations on the topic of HBI & design for climate change.
 
 **Workshop Themes and Topics**
 
@@ -69,11 +69,11 @@ Our workshop will discuss emerging design research practices to frame a design a
 
 The workshop will be a full-day in-person event. Participants are invited to join for the whole day. Information about the Conference Venue can be found [here](https://dis.acm.org/2024/attending-dis24/).
 
-Submissions are possible in one of two formats:
+Submissions are possible in the following formats, using ACM Conference Proceedings templates:
 
 (1) Motivational Statement highlighting professional interest in the workshop and relevant expertise (max. 2 pages, pdf files only)
-
 (2) Extended Abstract in the ACM Conference Proceedings Primary Article format (max. 4 pages excluding references)
+(3) Pictorial format (max. 4 pages)
 
 Submissions should address subjects related to the Themes and Topics above, including but not limited to: **People and Behaviour in the Buildings (Under climate change); Climate Data & Context; Design, Technology and Interfaces**.
 
@@ -83,7 +83,7 @@ At least one author of each accepted paper must attend the workshop. Participant
 
 Depending on the number and quality of submissions we intend to invite the authors of Extended Abstracts to develop them either into a book chapter or a journal special issue manuscript.
 
-**Deadline for submissions is xx. We will review your submissions and get back to you by xx.**
+**Deadline for submissions is 27th of May. We will review your submissions and get back to you by 7th of June.**
 
 If you have any queries, please contact:
 
