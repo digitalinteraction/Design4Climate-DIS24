@@ -67,6 +67,9 @@ Our workshop will discuss emerging design research practices to frame a design a
 
 [>>Submit your proposal here]({{ formUrl }})
 
+**Deadline for submissions is 27th of May.**
+**We will review your submissions and get back to you by 7th of June.**
+
 The workshop will be a full-day in-person event. Participants are invited to join for the whole day. Information about the Conference Venue can be found [here](https://dis.acm.org/2024/attending-dis24/).
 
 Submissions are possible in the following formats, using ACM Conference Proceedings templates:
@@ -82,8 +85,6 @@ Please indicate whether you do or do not wish for your submission to be publishe
 At least one author of each accepted paper must attend the workshop. Participants will be selected based on their prior experience, expressed interest in the workshop and the quality of their submissions. We will focus on recruiting from a diverse group of participants.
 
 Depending on the number and quality of submissions we intend to invite the authors of Extended Abstracts to develop them either into a book chapter or a journal special issue manuscript.
-
-**Deadline for submissions is 27th of May. We will review your submissions and get back to you by 7th of June.**
 
 If you have any queries, please contact:
 
