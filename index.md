@@ -5,7 +5,7 @@ formUrl: https://forms.gle/zQ6TgnbfvoY3mhHdA
 
 ## Workshop Call
 
-We invite submissions from HCI researchers, architects, designers, engineers, computer scientists and others to participate in a one-day workshop on **Human-Building-Interaction (HBI) and Design for Climate Change** at DIS 2024, at IT University, Copenhagen-DK, 1st-5th July 2024.
+We invite submissions from HCI researchers, architects, designers, engineers, computer scientists and others to participate in a one-day workshop on **Human-Building-Interaction (HBI) and Design for Climate Change** at DIS 2024, at IT University, Copenhagen-DK, Monday the 1st of July 2024.
 
 <br>
 Climate change poses unique challenges for the design of human-centered smart buildings and Human Building Interaction (HBI) research. Harvesting the potentials of vast amounts of environmental and personal data accumulated in contemporary smart buildings, and advances in programmable, actuating (bio)materials (such as CO2 harvesting), new design opportunities arise for novel data interactions that address climate, health & wellbeing and behavior in the built environment. Relevant research includes physical, biomaterial and tangible feedback for climate awareness – including air quality awareness-zero & passive energy, self-powered and compostable interfaces; and bio-design for wellbeing in-place.
