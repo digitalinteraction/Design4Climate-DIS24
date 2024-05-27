@@ -119,6 +119,7 @@ figcaption {
   text-decoration-thickness: 3px;
 }
 
+a,
 a:link {
   font-weight: bold;
   -webkit-text-decoration: rgb(24, 224, 24) solid underline;
