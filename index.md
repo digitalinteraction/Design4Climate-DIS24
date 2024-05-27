@@ -69,7 +69,7 @@ Our workshop will discuss emerging design research practices to frame a design a
 
 **Deadline for submissions: 7th of June**
 
-**We will review your submissions and get back to you by 7th of June.**
+**We will review your submissions and get back to you by 15th of June.**
 
 The workshop will be a full-day in-person event. Participants are invited to join for the whole day. Information about the Conference Venue can be found [here](https://dis.acm.org/2024/attending-dis24/).
 
