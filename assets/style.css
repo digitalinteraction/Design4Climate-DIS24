@@ -119,7 +119,15 @@ figcaption {
   text-decoration-thickness: 3px;
 }
 
-a,
+a {
+  font-weight: bold;
+  -webkit-text-decoration: rgb(24, 224, 24) solid underline;
+  text-decoration: rgb(24, 224, 24) solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+  text-decoration-thickness: 3px;
+}
+
 a:link {
   font-weight: bold;
   -webkit-text-decoration: rgb(24, 224, 24) solid underline;

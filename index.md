@@ -67,7 +67,7 @@ Our workshop will discuss emerging design research practices to frame a design a
 
 [>>Submit your proposal here]({{ formUrl }})
 
-**Deadline for submissions: 7th of June**
+**New Deadline for submissions: 7th of June**
 
 **We will review your submissions and get back to you by 15th of June.**
 
