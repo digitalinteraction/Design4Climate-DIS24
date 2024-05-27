@@ -63,7 +63,7 @@ Our workshop will discuss emerging design research practices to frame a design a
 - Biomaterials & feedback
 - Digital and personal fabrication
 
-## Participate in the Workshop (deadline 27th of May)
+## Participate in the Workshop (deadline 7th of June)
 
 [>>Submit your proposal here]({{ formUrl }})
 
