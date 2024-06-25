@@ -20,7 +20,7 @@ Download the [Workshop Call here](https://drive.google.com/file/d/1VwO1mGHS-TVBw
 
 The workshop will explore different contexts, study methods, designs and technologies broadly associated with Human-Building-Interaction and climate change. Invited participants will present their work during a lightning talks and demos session, followed by a “mapping the research landscape” exercise. Participants will collaboratively video prototype design fictions for new experiences around climate, interfaces and data interactions in buildings, and engage in design crit and discussion around the prototypes and key topics raised, as a contribution to workshop outcomes. The emerging design agenda developed in this workshop will inform a call for future publications.
 
-![Timetable](assets/Timetable.png)
+![Timetable](assets/Timetable-updated.png)
 
 **Workshop Intended Outcomes**
 
